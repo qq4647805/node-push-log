@@ -68,18 +68,14 @@ router
               console.log('join room:'+data)
             });
             window.onerror = function() {
-              var log_data=[].map.call(arguments,function(v){
-                return v;
-              })
+              var log_data=[].slice.call(arguments)
               socket.log && socket.emit('log','${namespace}',{c_id:socket.id,log:log_data,error:true})
             }
             global.console.log = (function(oriLogFunc){
                 return function(){
-                  var log_data=[].map.call(arguments,function(v){
-                    return v;
-                  })
+                  var log_data=[].slice.call(arguments)
                   socket.log && socket.emit('log','${namespace}',{c_id:socket.id,log:log_data})
-                  oriLogFunc.apply(console,arguments);
+                  oriLogFunc.apply(console,log_data);
                 }
             })(global.console.log);
           });
