@@ -1,0 +1,27 @@
+{
+  "name": "node-push-log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "c": "git add -A && git commit -am 'update'",
+    "p": "git push",
+    "u": "curl 'http://10.2.1.22:9923/pull?path=/data/data/nginx_80/s_book&to=master:master&from=origin'",
+    "cp": "npm run c && npm run p",
+    "cpu": "npm run c && npm run p && npm run u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@116.236.249.238:9922/shichao.zhou/node-push-log.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-readfile-promise": "^3.0.0",
+    "koa": "^1.2.4",
+    "koa-router": "^5.4.0",
+    "socket.io": "^1.4.8",
+    "uglify-js": "^2.7.3"
+  }
+}
