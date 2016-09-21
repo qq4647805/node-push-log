@@ -47,7 +47,7 @@ router
       </head>
       <body>
         <button onclick="console.log(Math.random())" style="font-size:20px">console.log</button>
-        <button onclick="aaa()" style="font-size:20px">测试报错</button>
+        <button onclick="test_error()" style="font-size:20px">测试报错</button>
       </body>
       </html>
     `
