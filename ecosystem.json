@@ -1,0 +1,16 @@
+{
+  apps : [
+    {
+      name      : "log-static.xuebadev.com",
+      script    : "main.js",
+	  "instances": 4,
+	  "exec_mode": "cluster",
+      env: {
+        COMMON_VARIABLE: "true"
+      },
+      env_production : {
+        NODE_ENV: "production"
+      }
+    }
+  ]
+}

@@ -12,6 +12,7 @@ const io = SocketIO(server);
 
 router
   .get('/',function *(next) {
+    console.log(this);
     this.body=`
       <!DOCTYPE html>
       <html lang="en">
