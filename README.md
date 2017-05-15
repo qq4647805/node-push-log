@@ -10,5 +10,5 @@ npm start
 ```
 1. 打开 [http://127.0.0.1:9999](http://127.0.0.1:9999/)  
 2. 切换room [http://127.0.0.1:9999/myApp](http://127.0.0.1:9999/myApp)
-3. 把[http://127.0.0.1:9999/myApp/log.js](http://127.0.0.1:9999/myApp/log.js)引入html(建议在header的最上边)
+3. 把[http://127.0.0.1:9999/myApp/log.js](http://127.0.0.1:9999/myApp/log.js)引入html(建议在head的最上边)
 4. 在[http://127.0.0.1:9999/myApp](http://127.0.0.1:9999/myApp)控制监控或操作客户端日志
