@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,9 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "fs-readfile-promise": "^3.0.0",
-    "koa": "^1.2.4",
-    "koa-router": "^5.4.0",
-    "socket.io": "^1.4.8",
-    "uglify-js": "^2.7.3"
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "socket.io": "^2.0.3",
+    "uglify-js": "^2.8.29"
   }
 }
