@@ -1,23 +1,24 @@
 {
-  "name": "node-push-log",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@116.236.249.238:9922/shichao.zhou/node-push-log.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "fs-readfile-promise": "^3.0.0",
-    "koa": "^2.3.0",
-    "koa-router": "^7.2.1",
-    "socket.io": "^2.0.3",
-    "uglify-js": "^2.8.29"
-  }
+    "name": "node-push-log",
+    "version": "1.1.0",
+    "description": "",
+    "main": "index.js",
+    "engines": { "node": "8.4.x" },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@116.236.249.238:9922/shichao.zhou/node-push-log.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "fs-readfile-promise": "^3.0.0",
+        "koa": "^2.3.0",
+        "koa-router": "^7.2.1",
+        "socket.io": "^2.0.3",
+        "uglify-js": "^2.8.29"
+    }
 }

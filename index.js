@@ -3,14 +3,10 @@ const SocketIO = require('socket.io')
 const readFile = require('fs-readfile-promise');
 const UglifyJS = require("uglify-js");
 const Port = 9999;
-
-
 const Koa = require('koa');
 const Router = require('koa-router');
-
 const app = new Koa();
 const router = new Router();
-
 const server = http.createServer(app.use(router.routes()).callback());
 const io = SocketIO(server);
 
